@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{EE045601-DB3F-48B0-81B7-FF3596FCF875}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RealTimeCalendar_Server/HubConfig/ChartHub.cs">
+    <Files>
+      <File FileName="RealTimeCalendar_Server/Properties/launchSettings.json" Line="14" Column="30" />
+      <File FileName="RealTimeCalendar_Server/Startup.cs" Line="60" Column="36" />
+      <File FileName="RealTimeCalendar_Server/Models/ChartModel.cs" Line="9" Column="28" />
+      <File FileName="RealTimeCalendar_Server/HubConfig/ChartHub.cs" Line="15" Column="1" />
+      <File FileName="RealTimeCalendar_Server/TimerFeatures/TimerManager.cs" Line="28" Column="34" />
+      <File FileName="RealTimeCalendar_Server/DataStorage/DataManager.cs" Line="9" Column="40" />
+      <File FileName="RealTimeCalendar_Server/Controllers/ChartController.cs" Line="28" Column="30" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RealTimeCalendar" expanded="True">
+            <Node name="RealTimeCalendar_Server" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="DataStorage" expanded="True" />
+              <Node name="HubConfig" expanded="True">
+                <Node name="ChartHub.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="TimerFeatures" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.RealTimeCalendar__Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
