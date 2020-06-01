@@ -6,8 +6,6 @@
 
 
   <ItemGroup>
-    <Folder Include="Models\" />
-    <Folder Include="HubConfig\" />
     <Folder Include="TimerFeatures\" />
     <Folder Include="DataStorage\" />
   </ItemGroup>

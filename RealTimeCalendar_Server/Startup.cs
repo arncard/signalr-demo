@@ -57,7 +57,7 @@ namespace RealTimeCalendar_Server
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
-                endpoints.MapHub<ChartHub>("/chart");
+                endpoints.MapHub<CalendarHub>("/calendar");
             });
         }
     }

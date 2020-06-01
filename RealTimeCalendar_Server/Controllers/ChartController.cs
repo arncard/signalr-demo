@@ -15,19 +15,19 @@ namespace RealTimeCalendar_Server.Controllers
     [ApiController]
     public class ChartController : ControllerBase
     {
-        private readonly IHubContext<ChartHub> _hub;
+        //private readonly IHubContext<ChartHub> _hub;
 
-        public ChartController(IHubContext<ChartHub> hub)
-        {
-            _hub = hub;
-        }
+        //public ChartController(IHubContext<ChartHub> hub)
+        //{
+        //    _hub = hub;
+        //}
 
-        public IActionResult Get()
-        {
-            var timerManager = new TimerManager(() => _hub.Clients.All.SendAsync("transferchartdata",
-                DataManager.GetData()));
+        //public IActionResult Get()
+        //{
+        //    var timerManager = new TimerManager(() => _hub.Clients.All.SendAsync("transferchartdata",
+        //        DataManager.GetData()));
 
-            return Ok(new { Message = "Request Completed" });
-        }
+        //    return Ok(new { Message = "Request Completed" });
+        //}
     }
 }
