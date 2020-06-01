@@ -220,6 +220,10 @@ FakesAssemblies/
 !*.pkb
 !*.pks
 
+
+RealTimeCalendar_Server/bin/
+RealTimeCalendar_Server/obj/
+
 # Kdiff conflict filetype
 *.orig
 
