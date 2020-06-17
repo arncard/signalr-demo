@@ -25,10 +25,16 @@ namespace SiteSubscriptionTest.Controllers
         public IActionResult Get()
         {
             //transfer data to all the clients subscribed to the transfercalendardata event
-            var timerManager = new TimerManager(() => _hub.Clients.All.SendAsync("transfersitemessage", "TRANSFERRED MESSAGE FROM SERVER"));
-            
-
+            var timerManager = new TimerManager(() => _hub.Clients.All.SendAsync("koalabeachevent", "TRANSFERRED MESSAGE FROM SERVER"));            
             return Ok(new { Message = "Request Completed" });            
+        }
+
+        [Route("send-message/{eventtosend}/{sitename}")]
+        [HttpGet]
+        public IActionResult SendMessage(string eventtosend, string sitename)
+        {
+            _hub.Clients.All.SendAsync(eventtosend, "Message sent to the site " + sitename);
+            return Ok(new { Message = "Message Sent to the site " + sitename });
         }
     }
 }
