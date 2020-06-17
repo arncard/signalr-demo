@@ -1,7 +1,10 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeCalendar_Server", "RealTimeCalendar_Server\RealTimeCalendar_Server.csproj", "{EE045601-DB3F-48B0-81B7-FF3596FCF875}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealTimeCalendar_Server", "RealTimeCalendar_Server\RealTimeCalendar_Server.csproj", "{EE045601-DB3F-48B0-81B7-FF3596FCF875}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteSubscriptionTest", "SiteSubscriptionTest\SiteSubscriptionTest.csproj", "{C1D8C593-A2AD-45D2-B6BC-BDDA69E269CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,5 +16,15 @@ Global
 		{EE045601-DB3F-48B0-81B7-FF3596FCF875}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE045601-DB3F-48B0-81B7-FF3596FCF875}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE045601-DB3F-48B0-81B7-FF3596FCF875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1D8C593-A2AD-45D2-B6BC-BDDA69E269CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1D8C593-A2AD-45D2-B6BC-BDDA69E269CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1D8C593-A2AD-45D2-B6BC-BDDA69E269CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1D8C593-A2AD-45D2-B6BC-BDDA69E269CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD9DF888-8B63-4F79-A5F1-211D3B662093}
 	EndGlobalSection
 EndGlobal
